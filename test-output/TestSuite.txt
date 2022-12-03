@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 60.96 s <<< FAILURE! - in TestSuite
+verifyAddAccountSuccsesfulMsg(test.AddAccountPageTest)  Time elapsed: 7.567 s  <<< FAILURE!
+java.lang.AssertionError: expected [Account Registered.. ] but found [Failed , try again ]
+	at test.AddAccountPageTest.verifyAddAccountSuccsesfulMsg(AddAccountPageTest.java:22)
+
+verifyAddAccountSuccsesfulMsg(test.AddAccountPageTest)  Time elapsed: 2.976 s  <<< FAILURE!
+java.lang.AssertionError: expected [Account Registered.. ] but found [Failed , try again ]
+	at test.AddAccountPageTest.verifyAddAccountSuccsesfulMsg(AddAccountPageTest.java:22)
+
+verifyDeleteAccountMsg(test.DeleteAccountTest)  Time elapsed: 3.604 s  <<< FAILURE!
+java.lang.AssertionError: expected [Account Deleted ] but found [Account not found ]
+	at test.DeleteAccountTest.verifyDeleteAccountMsg(DeleteAccountTest.java:17)
+
+verifyAlertIsPresentAndAlertText(test.LoginPageTest)  Time elapsed: 9.211 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at test.LoginPageTest.verifyAlertIsPresentAndAlertText(LoginPageTest.java:31)
+
+verifyHomePageHeaderTitle(test.HomePageTest)  Time elapsed: 1.631 s  <<< FAILURE!
+java.lang.AssertionError: expected [TDIT Solutions ] but found [TDIT Solutions]
+	at test.HomePageTest.verifyHomePageHeaderTitle(HomePageTest.java:21)
+

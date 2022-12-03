@@ -1,0 +1,6 @@
+test\HomePageTest.class
+test\LoginPageTest.class
+test\UpdateAccountPageTest.class
+test\DeleteAccountTest.class
+test\AddAccountPageTest.class
+DataProvider\DataProviderclass.class
